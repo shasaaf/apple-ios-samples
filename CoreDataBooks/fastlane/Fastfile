@@ -24,9 +24,7 @@ platform :ios do
     #increment_build_number(
     #  xcodeproj: "CoreDataBooks.xcodeproj"
     #)
-    build_app(
-      scheme: "CoreDataBooks"
-    )
+    gym
     clean_build_artifacts
     
   end
